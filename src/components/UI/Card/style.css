@@ -1,0 +1,61 @@
+*{
+    background-color: white;
+}
+  
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+   
+  }
+  
+  .left{
+    background-color: gainsboro;
+    height: 600px;
+  text-align: end;
+  font-size: 20px;
+  
+  }
+  a {
+    /* display: block; */
+    margin: 20px 20px 20px 20px;
+    
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+  .bottom ul{
+    
+        position: fixed;
+        left: 50px;
+        bottom: 0px;
+        text-align: center;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+  }
+  
+
+  
+  .right {
+    background-color: grey;
+    color:white;
+    height: 600px;
+    text-align: end;
+    font-size: 20px;
+    
+  }
+ 
+
+

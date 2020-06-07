@@ -1,0 +1,70 @@
+
+
+  .some-page-wrapper {
+    margin: 0px;
+    /* background-color: red; */ 
+    /* max-width: fit-content; */
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+   
+  }
+  
+  .blue-column {
+    background-color: grey;
+    height: 600px;
+  
+  }
+  
+  .green-column {
+    background-color: black;
+    color:white;
+    height: 600px;
+    
+    
+  }
+  progress[value] {
+    height: 10px;
+    /* width: max-content; */
+    max-width: max-content;
+    align-items: center;
+    -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0.25 inset);
+}
+
+::-webkit-progress-value {
+    background-color: purple;
+}
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+ align-items: center;
+  padding: 10px;
+  color:black;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
